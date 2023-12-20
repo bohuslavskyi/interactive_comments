@@ -1,0 +1,13 @@
+.buttonSubmit {
+  display: flex;
+
+  &.UPDATE {
+    align-self: flex-end;
+  }
+
+  button {
+    font-size: 16px !important;
+    min-width: 81px;
+    height: 48px !important;
+  }
+}

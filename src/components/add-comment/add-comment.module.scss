@@ -1,0 +1,17 @@
+@import "/src/styles/colorSystem";
+
+.wrap {
+  width: 100%;
+
+  .addCommentForm {
+    height: 144px;
+    padding: 24px;
+    background: $white;
+    border-radius: 8px;
+
+    &.edit {
+      height: 160px;
+      padding: 0;
+    }
+  }
+}

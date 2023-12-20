@@ -1,0 +1,37 @@
+@import "../../styles/colorSystem";
+
+.wrap {
+  width: 730px;
+  max-height: 100%;
+
+  .commentsWrpa {
+    max-height: calc(100% - 144px);
+    padding: 0 6px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: $light-gray;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #d3d3d7;
+      border-radius: 2px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: $gray;
+    }
+  }
+
+  .addComment {
+    height: 144px;
+    width: 100%;
+  }
+}
